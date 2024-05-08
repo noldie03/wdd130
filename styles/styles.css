@@ -28,7 +28,7 @@ aside {
 
 aside h2 {
     position: absolute;
-    color: rgb(201, 30, 30);
+    color: red;
     top: 15px;
     left: 100px;
 }
