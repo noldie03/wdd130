@@ -68,6 +68,9 @@ div.hero {
     position: absolute;
     display: flex;
     top: 0;
+    padding: 2% 2%;
+    margin: 26% 8%;
+    background-color: #52d1dc93;
 }
 
 .hero article img {
