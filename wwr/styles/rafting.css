@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #52D1DC;
+    --secondary-color: #475B5A;
+    --accent1-color: #8D8E8E;
+    --accent2-color: #BBBBBF;
+
+    --heading-font: Roboto, serif;
+    --paragraph-font: Rock Salt, serif;
+
+    --nav-background-color: #52D1DC;
+    --nav-link-color: #475B5A;
+    --nav-hover-link-color: #8D8E8E;
+    --nav-hover-background-color: #BBBBBF;
+}
+
+main {
+	max-width: 980px;
+	margin: 2rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav.sociallinks a{
+    text-decoration: none;
+}
+
+div.hero {
+    position: relative;
+}
+
+.hero article, .hero h1 {
+    position: absolute;
+    top: 0;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
