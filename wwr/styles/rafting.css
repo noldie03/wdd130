@@ -64,8 +64,19 @@ div.hero {
     position: relative;
 }
 
-.hero article, .hero h1 {
+.hero article{
     position: absolute;
+    display: flex;
+    top: 0;
+}
+
+.hero article img {
+    max-width: 200px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0;
 }
 
 .hero img {
