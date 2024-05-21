@@ -84,3 +84,8 @@ div.hero {
     width: 100%;
     height: auto;
 }
+
+.sociallinks a img {
+    width: 100%;
+    max-width: 50px;
+}
