@@ -34,10 +34,10 @@ p {
     padding: 25px;
 }
 
-nav {
+div.sociallinks {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+    width: 100%;
+    
 }
 
 nav a {
@@ -59,6 +59,13 @@ nav a:hover {
 nav.sociallinks a{
     text-decoration: none;
 }
+
+nav.sociallinks{
+    font-size: 1.2rem;
+    display: flex;
+    float: right;
+}
+
 
 div.hero {
     position: relative;
