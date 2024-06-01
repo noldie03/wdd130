@@ -103,7 +103,6 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
-    justify-items: space-between;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
     justify-items: space-between;
