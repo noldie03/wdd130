@@ -61,11 +61,25 @@ nav.sociallinks a{
     text-decoration: none;
 }
 
+nav.sociallinks {
+    justify-content: right;
+}
+
 div.sociallinks {
     background-color: var(--nav-background-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+div.sociallinks > * {
+    width: 30%;
+    height: auto;
+}
+
+div.sociallinks p {
+    text-align: center;
 }
 
 div.hero {
