@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label {
+    padding: .3rem 0;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+input, select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+input[type="textarea"] {
+    height: 100px;
+}
+
+button {
+    margin: 1rem 0;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size:  0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.q4 > p {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 400px;
+    text-align: left;
+    font-size:  0.6em;
+    color: white;
+    background-color: #3b3636;
+    font-family: arial;
+}
