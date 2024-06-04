@@ -112,3 +112,12 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+main > img, p {
+    margin: 1rem;
+}
+
+ul > li {
+    margin-left: 1rem;
+}
+
