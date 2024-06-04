@@ -149,3 +149,90 @@ header nav {
     max-width: 250px;
     height: 100%;
 }
+
+section.reach {
+    background-color: var(--nav-background-color);
+}
+
+.reach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    max-width: 1040px;
+}
+
+.reach h1{
+    color: var(--secondary-color);
+}
+div.reach p{
+    width: 50%;
+}
+
+.cardsholder, .empsholder {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10rem;
+}
+
+.cards, .emps {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    width: 45%;
+    background-color: rgb(201, 198, 198);
+}
+
+.cards h2, .info h2, .emps h2 {
+    color: var(--nav-link-color);
+}
+
+.fullwidth {
+    max-width: 1040px;
+}
+
+.cards button {
+    background-color: gray;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.headquarters {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.headquarters > .info {
+    text-align: center;
+    margin: auto 0;
+    padding: 1rem;
+    background-color: rgb(201, 198, 198);
+}
+
+.empsholder {
+    margin: 1rem auto;
+}
+
+.emps {
+    width: 30%;
+    padding: 1rem 0;
+}
+
+.empsholder img {
+    width: 200px;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
