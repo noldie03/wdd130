@@ -314,3 +314,12 @@ form > .form-item {
 .radiobutton > label, .checkbox > label {
     padding-left: 1rem;
 }
+
+.wireframe {
+    text-align: center;
+}
+
+.wireframe a {
+    color: black;
+    text-decoration: none;
+}
