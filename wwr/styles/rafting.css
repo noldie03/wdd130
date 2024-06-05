@@ -257,7 +257,7 @@ input[type="textarea"] {
 
 button {
     margin: 1rem 0;
-    background-color: navy;
+    background-color: var(--accent1-color);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -266,7 +266,7 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: var(--nav-link-color);
 }
 
 .emailname {
@@ -293,24 +293,24 @@ form > .form-item {
     margin: 1rem 0;
 }
 
-.radiobuttoncont {
+.radiobuttoncont, .checkboxcont {
     display: flex;
     flex-flow: column wrap;
     align-content: flex-start;
     margin: 1rem 0;
 }
 
-.radiobutton {
+.radiobutton, .checkbox {
     display: flex;
     align-content: start;
     align-items: center;
 }
 
-.radiobutton input{
+.radiobutton input, .checkbox input{
     height: 30px;
     width: 20px;
 }
 
-.radiobutton > label {
+.radiobutton > label, .checkbox > label {
     padding-left: 1rem;
 }
