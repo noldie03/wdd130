@@ -27,15 +27,15 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--nav-background-color);
 }
 
 p {
     padding: 25px;
 }
 
-nav {
-    background-color: var(--nav-background-color);
+header nav {
+    background-color: var(--accent2-color);
     width: 100%;
     display: flex;
 }
@@ -327,4 +327,10 @@ form > .form-item {
 footer.contact {
     max-width: 1040px;
     margin: 1rem auto;
+}
+
+footer nav {
+    background-color: var(--nav-background-color);
+    width: 100%;
+    display: flex;
 }
