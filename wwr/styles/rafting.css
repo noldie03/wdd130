@@ -323,3 +323,8 @@ form > .form-item {
     color: black;
     text-decoration: none;
 }
+
+footer.contact {
+    max-width: 1040px;
+    margin: 1rem auto;
+}
