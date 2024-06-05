@@ -176,7 +176,7 @@ div.reach p{
     margin: 1rem 10rem;
 }
 
-.cards, .emps {
+.cards, .emps, .trips {
     text-align: center;
     border: 1px solid gray;
     border-radius: 2rem;
@@ -190,6 +190,7 @@ div.reach p{
 
 .fullwidth {
     max-width: 1040px;
+    margin: 0 auto;
 }
 
 .cards button {
@@ -224,7 +225,7 @@ div.reach p{
     margin: 2rem 0;
 }
 
-.empsholder img {
+.empsholder img, .trips_cont img {
     width: 200px;
 }
 
@@ -333,4 +334,59 @@ footer nav {
     background-color: var(--nav-background-color);
     width: 100%;
     display: flex;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1040px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h2 {
+    position: absolute;
+    font-size: 50px;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--nav-link-color);
+    opacity: 0.85;
+    border-radius: 1rem;
+}
+
+.trips {
+    width: 30%;
+}
+
+.trips h2 {
+    color: var(--nav-link-color);
+}
+
+.trips img {
+    width: 200px;
+    height: 200px;
+}
+
+.trips_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trips > a > button {
+    width: 65%;
+}
+
+.triph1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.triph1 h1 {
+    color: var(--nav-link-color);
 }
